@@ -1,0 +1,75 @@
+.main{
+	background: rgb(2,223,224);
+background: -moz-linear-gradient(56deg, rgba(2,223,224,1) 19%, rgba(112,67,178,0.9817708333333334) 82%);
+background: -webkit-linear-gradient(56deg, rgba(2,223,224,1) 19%, rgba(112,67,178,0.9817708333333334) 82%);
+background: linear-gradient(56deg, rgba(2,223,224,1) 19%, rgba(112,67,178,0.9817708333333334) 82%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#02dfe0",endColorstr="#7043b2",GradientType=1);
+	color: white;
+	text-align: center;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	padding-top: 40px;
+}
+.main>button{
+	padding: 15px 25px 15px 25px;
+	border: none;
+	font-size: 18px;
+   border-radius: 5px;
+
+}
+.main>h1{
+	font-weight: 100;
+}
+.main>p{
+	width: 70%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.datahere{
+	/* width: 90%; */
+	margin: auto;
+}
+.clas{
+	text-align: center;
+}
+.clas>h1{
+	font-weight: 100;
+}
+.clas>p{
+	margin-bottom: 30px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 50px;
+	width: 75%;
+	/* border: 1px solid red; */
+	margin: auto;
+}
+.grid>div{
+	/* width: 70%; */
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	align-items: center;
+	/* margin: auto; */
+}
+#image{
+	/* border: 1px solid black; */
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: rgb(80, 76, 76);
+	color: white;
+}
+.grid>div>button{
+	padding: 10px 10px 10px 10px;
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.grid>div>h2{
+	margin-left: 20px;
+}
+.grid>div>p{
+	margin-left: 20px;
+}
